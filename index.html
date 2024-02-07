@@ -5,39 +5,55 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css"/>
     <title>Nikon</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__location">
+    <header class="globalHeader">
+        <div class="globalHeader__location">
+            <form class="globalHeader__location-form">
+                <div class="globalHeader__location-info-text">
+                    <label for="header-regions" class="globalHeader__location-label">
+                        Select your country/region
+                    </label>
+                    <span class="globalHeader__location-span">You are in our Global Site</span>
+                </div>
+                <select class="globalHeader__location-select" name="regions" id="header-regions">
+                    <option value="ukr" selected>Ukraine</option>
+                    <option value="de">Germany</option>
+                    <option value="en">England</option>
+                </select>
+                <button type="submit" class="globalHeader__location-submit">Go</button>
+            </form>
 
+            <button class="globalHeader__location-close"></button>
         </div>
-        <div class="header__main">
+        <div>
 
         </div>
     </header>
-    <main class="main">
-        <div class="pages-slider">
+    <main class="globalMain">
+        <div class="globalMain__pages-slider">
 
         </div>
-        <div class="main__ces">
+        <div class="globalMain__ces">
 
         </div>
-        <div class="main__vision">
+        <div class="globalMain__vision">
 
         </div>
-        <div class="main__news">
+        <div class="globalMain__news">
 
         </div>
-        <div class="main__warning">
+        <div class="globalMain__warning">
 
         </div>
     </main>
-    <footer class="footer">
-        <div class="footer__top">
+    <footer class="globalFooter">
+        <div class="globalFooter__top">
 
         </div>
-        <div class="footer__bottom">
+        <div class="globalFooter__bottom">
 
         </div>
     </footer>
