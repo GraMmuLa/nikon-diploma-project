@@ -9,71 +9,96 @@
     <title>Nikon</title>
 </head>
 <body>
-    <header class="globalHeader">
-        <div class="globalHeader__location">
-            <form class="globalHeader__location-form">
-                <div class="globalHeader__location-info-text">
-                    <label for="header-regions" class="globalHeader__location-label">
+    <header class="global-header">
+        <div class="location">
+            <form class="location__form">
+                <div class="location__info-text">
+                    <label for="header-regions" class="location__label">
                         Select your country/region
                     </label>
-                    <span class="globalHeader__location-span">You are in our Global Site</span>
+                    <span class="location__span">You are in our Global Site</span>
                 </div>
-                <select class="globalHeader__location-select" name="regions" id="header-regions">
+                <select class="location__select" name="regions" id="header-regions">
                     <option value="ukr" selected>Ukraine</option>
                     <option value="de">Germany</option>
                     <option value="en">England</option>
                 </select>
-                <button type="submit" class="globalHeader__location-submit button-link">Go</button>
+                <button type="submit" class="location__submit button-link">Go</button>
             </form>
 
-            <button class="globalHeader__location-close">
-                <img src="imgs/globalHeader/location_header_close_vector.svg" alt="Close"/>
+            <button class="location__close">
+                <img src="imgs/global-page/global-header/location_header_close_vector.svg" alt="Close"/>
             </button>
         </div>
-        <nav class="globalHeader__navbar header-navbar">
-            <img class="globalHeader__navbar-logo header-navbar-logo" src="imgs/header-navbar/header_navbar_logo.svg" alt="Capture"/>
+        <div class="header">
+            <img class="header__logo" src="imgs/global-page/header-navbar/header_navbar_logo.svg" alt="Capture"/>
 
-            <div class="globalHeader__navbar-block header-navbar-block">
-                <p class="globalHeader__navbar-tag header-navbar-tag">Global</p>
+            <div class="header__block navbar-block">
+                <p class="navbar-block__tag">Global</p>
 
-                <ul class="globalHeader__navbar-links header-navbar-links">
-                    <li class="globalHeader__links-item header-navbar-links-item">
-                        <a href="business.html" class="globalHeader__links-item-link header-navbar__links-item-link button-link">Business</a>
+                <ul class="navbar-block__links">
+                    <li class="navbar-block__item">
+                        <a href="business.html" class="navbar-block__link button-link">Business</a>
                     </li>
-                    <li class="globalHeader__links-item header-navbar-links-item">
-                        <a href="consumer.html" class="globalHeader__links-item-link header-navbar__links-item-link button-link">Consumer</a>
+                    <li class="navbar-block__item">
+                        <a href="consumer.html" class="navbar-block__link button-link">Consumer</a>
                     </li>
-                    <li class="globalHeader__links-item header-navbar-links-item">
-                        <a href="about_us.html" class="globalHeader__links-item-link header-navbar__links-item-link button-link">About us</a>
+                    <li class="navbar-block__item">
+                        <a href="about_us.html" class="navbar-block__link button-link">About us</a>
                     </li>
-                    <li class="globalHeader__links-item header-navbar-links-item">
-                        <a href="#" class="globalHeader__links-item-link header-navbar__links-item-button">
-                            <img src="imgs/header-navbar/header_navbar_search.svg" alt="Search"/>
+                    <li class="navbar-block__item">
+                        <a href="#" class="navbar-block__link">
+                            <img src="imgs/global-page/header-navbar/header_navbar_search.svg" alt="Search"/>
                         </a>
                     </li>
-                    <li class="globalHeader__links-item header-navbar-links-item">
-                        <a href="#" class="globalHeader__links-item-link header-navbar__links-item-link">
-                            Global Network <img src="imgs/header-navbar/header_navbar_planet.svg" alt=".">
+                    <li class="navbar-block__item">
+                        <a href="#" class="navbar-block__link">
+                            Global Network <img src="imgs/global-page/header-navbar/header_navbar_planet.svg" alt=".">
                         </a>
                     </li>
                 </ul>
             </div>
-        </nav>
+        </div>
     </header>
-    <main class="globalMain">
-        <div class="globalMain__pages-slider">
+    <main class="global-main">
+        <div class="page-cards">
+            <section class="page-cards__item" id="business-card">
+                <div class="page-cards__text">
+                    <h3 class="page-cards__title">Business</h3>
+                    <a href="business.html" class="page-cards__button button-link">Products & Solutions</a>
+                </div>
+            </section>
+            <section class="page-cards__item" id="consumer-card">
+                <div class="page-cards__text">
+                    <h3 class="page-cards__title">Consumer</h3>
+                    <a  href="business.html" class="page-cards__button button-link">Products & Services</a>
+                </div>
+            </section>
+            <section class="page-cards__item" id="about-us-card">
+                <div class="page-cards__text">
+                    <h3 class="page-cards__title">About Us</h3>
+                    <a href="business.html" class="page-cards__button button-link">Company Information</a>
+                </div>
+            </section>
+        </div>
+        <div class="ces">
+            <section class="ces__main">
+                <h3 class="ces__title-top">CES 2024</h3>
+                <img class="ces__title-bottom" src="imgs/global-page/ces/capture.svg" alt="CES"/>
+                <div class="ces__text">
+                    <p class="ces__mini-title">Making a better world with trust and creativity</p>
+                    <p class="ces__mini-description">Innovation 2030 – A key technology solutions company in a global society
+                        where humans and machines co-create seamlessly.</p>
+                </div>
+            </section>
+        </div>
+        <div class="vision">
 
         </div>
-        <div class="globalMain__ces">
+        <div class="news">
 
         </div>
-        <div class="globalMain__vision">
-
-        </div>
-        <div class="globalMain__news">
-
-        </div>
-        <div class="globalMain__warning">
+        <div class="warning-block">
 
         </div>
     </main>

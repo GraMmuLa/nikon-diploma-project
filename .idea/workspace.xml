@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822e63bc-59bb-4de9-b2fa-b8297b7b0142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_planet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/ces/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/ces/capture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/pages-cards/about-us-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/pages-cards/business-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/pages-cards/consumer-card.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/globalHeader/location_header_button_vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/global-header/location_header_button_vector.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/globalHeader/location_header_close_vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/global-header/location_header_close_vector.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/header-navbar/header_navbar_logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_planet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/header-navbar/header_navbar_planet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/header-navbar/header_navbar_search.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,27 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "parallelBranch",
-    "last_opened_file_path": "C:/Program Files/JetBrains/WebStorm 2023.1.3/WebStormProjects/nikon-diploma-project/imgs/header-navbar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;parallelBranch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/JetBrains/WebStorm 2023.1.3/WebStormProjects/nikon-diploma-project/imgs/header-navbar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\header-navbar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\global-page\ces" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\global-page" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\pages-cards" />
       <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\globalHeader" />
       <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs" />
     </key>
@@ -71,7 +82,9 @@
       <workItem from="1707250873690" duration="71000" />
       <workItem from="1707309044176" duration="5813000" />
       <workItem from="1707331198369" duration="101000" />
-      <workItem from="1707659052984" duration="3062000" />
+      <workItem from="1707659052984" duration="3177000" />
+      <workItem from="1707693168576" duration="3726000" />
+      <workItem from="1707844959649" duration="5583000" />
     </task>
     <servers />
   </component>
