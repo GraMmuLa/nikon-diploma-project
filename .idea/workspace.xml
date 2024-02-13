@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822e63bc-59bb-4de9-b2fa-b8297b7b0142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/global-page/ces/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/global-page/ces/capture.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/global-page/pages-cards/about-us-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/global-page/pages-cards/business-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/global-page/pages-cards/consumer-card.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/globalHeader/location_header_button_vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/global-header/location_header_button_vector.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/globalHeader/location_header_close_vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/global-header/location_header_close_vector.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/header-navbar/header_navbar_logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_planet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/header-navbar/header_navbar_planet.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/header-navbar/header_navbar_search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/global-page/header-navbar/header_navbar_search.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +74,7 @@
       <workItem from="1707331198369" duration="101000" />
       <workItem from="1707659052984" duration="3177000" />
       <workItem from="1707693168576" duration="3726000" />
-      <workItem from="1707844959649" duration="5583000" />
+      <workItem from="1707844959649" duration="6599000" />
     </task>
     <servers />
   </component>

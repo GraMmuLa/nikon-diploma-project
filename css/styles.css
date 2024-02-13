@@ -123,11 +123,24 @@ a {
 }
 
 .navbar-block__link {
+    position: relative;
     color: #ffffff;
 }
+.navbar-block__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    bottom: -2px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform .3s ease;
+}
+.navbar-block__link:hover::before {
+    transform: scaleX(1);
 
-.navbar-block__link:hover {
-    text-decoration: underline;
 }
 
 /* Header Template End */
@@ -185,6 +198,13 @@ a {
 
 .page-cards__button {
     font-size: 28px;
+    transition: all .3s;
+}
+
+.page-cards__button:hover {
+    background: rgba(0,0,0,0.7);
+    border: 1px solid #ffffff;
+    padding: 20px 30px;
 }
 
 #business-card {
