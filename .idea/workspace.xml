@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822e63bc-59bb-4de9-b2fa-b8297b7b0142" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/news/rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/vision/card1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/vision/card2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/vision/card3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/global-page/vision/card4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -50,11 +55,11 @@
       <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\header-navbar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\global-page\ces" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\global-page\news" />
       <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\global-page" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\global-page\vision" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\global-page\ces" />
       <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\pages-cards" />
-      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs\globalHeader" />
-      <recent name="C:\Program Files\JetBrains\WebStorm 2023.1.3\WebStormProjects\nikon-diploma-project\imgs" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +79,9 @@
       <workItem from="1707331198369" duration="101000" />
       <workItem from="1707659052984" duration="3177000" />
       <workItem from="1707693168576" duration="3726000" />
-      <workItem from="1707844959649" duration="6599000" />
+      <workItem from="1707844959649" duration="7329000" />
+      <workItem from="1707862886270" duration="895000" />
+      <workItem from="1708027729927" duration="4528000" />
     </task>
     <servers />
   </component>

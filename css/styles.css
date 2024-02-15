@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: Roboto, 'sans-serif';
     font-size: 20px;
+    background: #F2F2F2;
 }
 ul {
     padding: 0;
@@ -19,7 +20,8 @@ a {
 /* Global Page Header */
 
 .global-header {
-    position: relative;
+    position: absolute;
+    width: 100%;
     z-index: 3;
 }
 
@@ -27,7 +29,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F2F2F2;
     padding: 14px 0;
 }
 
@@ -58,7 +59,7 @@ a {
     font-size: 20px;
 }
 
-.location__submit {
+.dark-button {
     border: 1px solid #949494;
     font-family: Roboto, 'sans-serif';
     font-size: 20px;
@@ -69,7 +70,7 @@ a {
     transition: background-color .2s;
 }
 
-.location__submit:hover {
+.dark-button:hover {
     background-color: #949494;
 }
 
@@ -87,8 +88,6 @@ a {
 /* Header Template */
 
 .header {
-    position: relative;
-    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,7 +118,7 @@ a {
 
 .navbar-block__tag {
     align-self: flex-end;
-    color: #fff;
+    color: #ffffff;
 }
 
 .navbar-block__link {
@@ -140,7 +139,6 @@ a {
 }
 .navbar-block__link:hover::before {
     transform: scaleX(1);
-
 }
 
 /* Header Template End */
@@ -165,14 +163,10 @@ a {
 
 
 
-/* Main Page Cards */
-
-.global-main {
-    position: relative;
-    top: -190px;
-}
+/* Global Page Cards */
 
 .page-cards {
+    padding-top: 85px;
     display: flex;
     width: 100%;
 }
@@ -219,11 +213,11 @@ a {
     background: url("../imgs/global-page/pages-cards/about-us-card.png");
 }
 
-/* Main Page Cards End*/
+/* Global Page Cards End*/
 
 
 
-/* Main Page Ces */
+/* Global Page Ces */
 
 .ces {
 
@@ -261,6 +255,79 @@ a {
 .ces__mini-description {
     font-size: 16px;
 }
-/* Main Page Ces End */
+
+/* Global Page Ces End */
 
 
+
+/* Global Page Vision */
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.vision__entry {
+    margin-bottom: 30px;
+}
+
+.vision__title {
+    font-size: 36px;
+}
+
+.vision__subtitle {
+    font-size: 32px;
+    max-width: 796px;
+    margin: 0;
+}
+
+.vision-body__list {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vision__card /* vision-card */ {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    height: 870px;
+    text-align: left;
+    margin-right: 20px;
+    background: #ffffff;
+}
+
+.vision-card__body {
+    padding-left: 50px;
+    align-self: stretch;
+    justify-content: stretch;
+}
+
+.vision-card__title {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.vision-card__description {
+    margin: 0 0 50px 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.109;
+}
+
+/* Global Page Vision End */
+
+
+/* TODO */
+/* Global Page News */
+
+.news__button::after {
+}
+
+/* Global Page News End */
