@@ -23,7 +23,7 @@
                     <option value="de">Germany</option>
                     <option value="en">England</option>
                 </select>
-                <button type="submit" class="location__submit dark-button button-link">Go</button>
+                <button type="submit" class="location__submit dark-button button-link-light">Go</button>
             </form>
 
             <button class="location__close">
@@ -38,13 +38,13 @@
 
                 <ul class="navbar-block__links">
                     <li class="navbar-block__item">
-                        <a href="business.html" class="navbar-block__link button-link">Business</a>
+                        <a href="business.html" class="navbar-block__link light-link">Business</a>
                     </li>
                     <li class="navbar-block__item">
-                        <a href="consumer.html" class="navbar-block__link button-link">Consumer</a>
+                        <a href="consumer.html" class="navbar-block__link light-link">Consumer</a>
                     </li>
                     <li class="navbar-block__item">
-                        <a href="about_us.html" class="navbar-block__link button-link">About us</a>
+                        <a href="about_us.html" class="navbar-block__link light-link">About us</a>
                     </li>
                     <li class="navbar-block__item">
                         <a href="#" class="navbar-block__button">
@@ -65,19 +65,19 @@
             <section class="page-cards__item" id="business-card">
                 <div class="page-cards__text">
                     <h3 class="page-cards__title">Business</h3>
-                    <a href="business.html" class="page-cards__button button-link">Products & Solutions</a>
+                    <a href="business.html" class="page-cards__button light-link">Products & Solutions</a>
                 </div>
             </section>
             <section class="page-cards__item" id="consumer-card">
                 <div class="page-cards__text">
                     <h3 class="page-cards__title">Consumer</h3>
-                    <a  href="business.html" class="page-cards__button button-link">Products & Services</a>
+                    <a  href="business.html" class="page-cards__button light-link">Products & Services</a>
                 </div>
             </section>
             <section class="page-cards__item" id="about-us-card">
                 <div class="page-cards__text">
                     <h3 class="page-cards__title">About Us</h3>
-                    <a href="business.html" class="page-cards__button button-link">Company Information</a>
+                    <a href="business.html" class="page-cards__button light-link">Company Information</a>
                 </div>
             </section>
         </div>
@@ -113,7 +113,7 @@
                                     This synergy often leads to groundbreaking solutions and advancements across various fields.
                                     That’s why Capture are helping people develop their skills with new technologies in their joint future.
                                 </p>
-                                <a href="#" class="vision-card__button dark-button button-link">Click here for details</a>
+                                <a href="#" class="vision-card__button dark-button">Click here for details</a>
                             </div>
                         </article>
                     </li>
@@ -125,7 +125,7 @@
                                 <p class="vision-card__description">
                                     Our technologies and solutions meet the demands of professionals, helping society solve issues and make progress using AI.
                                 </p>
-                                <a href="#" class="vision-card__button dark-button button-link">Click here for details</a>
+                                <a href="#" class="vision-card__button dark-button">Click here for details</a>
                             </div>
                         </article>
                     </li>
@@ -140,7 +140,7 @@
                                     and achieve sustainable growth for our company. Here we present Capture’s sustainability
                                     activities in the areas of business, environment, social and labor affairs, and governance.
                                 </p>
-                                <a href="#" class="vision-card__button dark-button button-link">Click here for details</a>
+                                <a href="#" class="vision-card__button dark-button">Click here for details</a>
                             </div>
                         </article>
                     </li>
@@ -157,7 +157,7 @@
                                     advancements in manufacturing techniques contribute to lighter and more durable lenses,
                                     offering users a more comfortable and long-lasting visual experience.
                                 </p>
-                                <a href="#" class="vision-card__button dark-button button-link">Click here for details</a>
+                                <a href="#" class="vision-card__button dark-button button-link-light">Click here for details</a>
                             </div>
                         </article>
                     </li>
@@ -165,24 +165,64 @@
             </div>
         </div>
         <div class="news">
-            <div class="news__header">
-                <h3 class="news__title">News</h3>
-                <img class="news__rss" src="imgs/global-page/news/rss.svg" alt="RSS"/>
+            <div class="news__header news-header">
+            <div class="news-header__body">
+                <h3 class="news-header__title">News</h3>
+                <div class="news-header__rss">
+                    <a href="#" class="news-header__rss-link">
+                        <img class="news-header__rss-img" src="imgs/global-page/news/rss.svg" alt="RSS"/>
+                    </a>
+                </div>
+            </div>
+
+
             </div>
 <!--            TODO-->
             <div class="news__body">
                 <ul class="news__list">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="news__item news-item">
+                        <span class="news-item__data">Jan. 12, 2024</span>
+                        <div class="news-item__category">
+                            <span class="news-item__category-name">Sustainability</span>
+                        </div>
+                        <a href="#" class="news-item__link dark-link">Receives “Prime” Status in ISS ESG Corporate Rating for the First Time</a>
+                    </li>
+                    <li class="news__item news-item">
+                        <span class="news-item__data">Jan. 9, 2024</span>
+                        <div class="news-item__category">
+                            <span class="news-item__category-name">Corporate Information</span>
+                        </div>
+                        <a href="#" class="news-item__link dark-link">Capture Exhibits at CES 2024</a>
+                    </li>
+                    <li class="news__item news-item">
+                        <span class="news-item__data">Jan. 9, 2024</span>
+                        <div class="news-item__category">
+                            <span class="news-item__category-name">Consumer Products</span>
+                        </div>
+                        <a href="#" class="news-item__link dark-link">Capture and AFP collaborate to verify the implementation of an image provenance function
+                        in Capture cameras</a>
+                    </li>
+                    <li class="news__item news-item">
+                        <span class="news-item__data">Jan. 9, 2024</span>
+                        <div class="news-item__category">
+                            <span class="news-item__category-name">Consumer Products</span>
+                        </div>
+                        <a href="#" class="news-item__link dark-link">Introducing the Smart Telescopes ODYSSEY PRO and ODYSSEY</a>
+                    </li>
+                    <li class="news__item news-item">
+                        <span class="news-item__data">Jan. 5, 2024</span>
+                        <div class="news-item__category">
+                            <span class="news-item__category-name">Corporate Information</span>
+                        </div>
+                        <a href="#" class="news-item__link dark-link">Capture supports relief efforts for the 2024 Noto Peninsula Earthquake in Japan </a>
+                    </li>
                 </ul>
-                <a href="#" class="news__button button-link">See all news</a>
+                <a href="#" class="news__button dark-link">See all news</a>
             </div>
         </div>
         <div class="warning-block">
-
+            <img class="warning-block__img" alt="warning" src="imgs/warning.svg"/>
+            <h4 class="warning-block__text">Warning regarding suspicious emails imitating public relations notificationfs from Capture</h4>
         </div>
     </main>
     <footer class="globalFooter">
