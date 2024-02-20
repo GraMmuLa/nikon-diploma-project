@@ -150,7 +150,7 @@ a {
     color: #FFFFFF;
 }
 
-.light-link-hoverable::before {
+.light-link::before {
     content: "";
     display: block;
     position: absolute;
@@ -163,7 +163,7 @@ a {
     transition: transform .3s ease;
 }
 
-.light-link-hoverable:hover::before {
+.light-link:hover::before {
     transform: scaleX(1);
 }
 
@@ -257,9 +257,9 @@ a {
     transition: all .3s;
 }
 
-/*.page-cards__button:hover {*/
-
-/*}*/
+.page-cards__button::before {
+    content: none;
+}
 
 #business-card {
     background: url("../imgs/global-page/pages-cards/business-card.png");

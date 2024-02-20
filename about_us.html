@@ -4,12 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/about_us.css"/>
+
 </head>
 <body>
-    <header class="header">
-        <div class="header__logo"></div>
-        <div class="header__nav"></div>
-    </header>
+
+<header class="header-about-us">
+    <div class="global-header">
+        <div class="header">
+            <img class="header__logo" src="imgs/global-page/header-navbar/header_navbar_logo.svg" alt="Capture"/>
+
+            <div class="header__block navbar-block">
+                <p class="navbar-block__tag">Global</p>
+
+                <ul class="navbar-block__links">
+                    <li class="navbar-block__item">
+                        <a href="about_us.html" class="navbar-block__link  light-link">Global Home</a>
+                    </li>
+                    <li class="navbar-block__item">
+                        <a href="business.html" class="navbar-block__link  light-link">Business</a>
+                    </li>
+                    <li class="navbar-block__item">
+                        <a href="consumer.html" class="navbar-block__link  light-link">Consumer</a>
+                    </li>
+                    <li class="navbar-block__item">
+                        <a href="#" class="navbar-block__button">
+                            <img src="imgs/global-page/header-navbar/header_navbar_search.svg" alt="Search"/>
+                        </a>
+                    </li>
+                    <li class="navbar-block__item">
+                        <a href="#" class="navbar-block__link">
+                            Global Network <img src="imgs/global-page/header-navbar/header_navbar_planet.svg" alt=".">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__item"></li>
@@ -17,220 +49,414 @@
             <li class="nav__item"></li>
         </ul>
     </nav>
-    <main class="main">
-        <div class="about-us">
-            <h1 class="about-us__title"></h1>
-            <p class="about-us__text"></p>
+</header>
+
+<main class="main">
+    <div class="about-us">
+        <img class="about-us__img" src="/imgs/about_us/about_us_top.svg" alt="photo">
+        <div class="about-us__content">
+            <h1 class="about-us__title">About Us</h1>
+            <p class="about-us__text">Find the latest information on Nikon today, as well as basic information about the
+                company.</p>
         </div>
-        <div class="featured">
-            <ul class="featured__list">
-                <li class="featured__item">
-                    <div class="company-pickup">
-                        <div class="company-pickup__media"></div>
-                        <div class="company-pickup__body">
-                            <div class="company-pickup__title"></div>
-                            <div class="company-pickup__text"></div>
-                        </div>
+    </div>
+    <div class="featured">
+        <h2 class="featured__title">Featured</h2>
+        <ul class="featured__list">
+            <li class="featured__item">
+                <div class="company-pickup">
+                    <img class="company-pickup__media" src="/imgs/about_us/ces_2024.svg" alt="CES 2024 Special Site">
+                    <div class="company-pickup__body">
+                        <h3 class="company-pickup__title--c-icon">CES 2024 Special Site</h3>
+                        <p class="company-pickup__text">Introducing Capture's vision for the future and the latest
+                            technologies showcased at the world's largest digital technology trade show, CES 2024.
+                        </p>
                     </div>
-                </li>
-                <li class="featured__item">
-                    <div class="company-pickup">
-                        <div class="company-pickup__media"></div>
-                        <div class="company-pickup__body">
-                            <div class="company-pickup__title"></div>
-                            <div class="company-pickup__text"></div>
-                        </div>
+                </div>
+            </li>
+            <li class="featured__item">
+                <div class="company-pickup">
+                    <img class="company-pickup__media" src="/imgs/about_us/capture_report.svg" alt="Capture Report">
+                    <div class="company-pickup__body">
+                        <h3 class="company-pickup__title">Capture Report (Integrated Report)</h3>
+                        <p class="company-pickup__text">An integrated report that provides a better understanding of
+                            Capture's efforts to achieve medium- to long-term growth and corporate value improvements.
+                            Find out about the progress of the Medium-Term Management Plan, Nikon's Core Strengths, and
+                            more.
+                        </p>
                     </div>
-                </li>
-                <li class="featured__item">
-                    <div class="company-pickup">
-                        <div class="company-pickup__media"></div>
-                        <div class="company-pickup__body">
-                            <div class="company-pickup__title"></div>
-                            <div class="company-pickup__text"></div>
-                        </div>
+                </div>
+            </li>
+            <li class="featured__item">
+                <div class="company-pickup">
+                    <img class="company-pickup__media" src="/imgs/about_us/frontiers_of_vision.svg"
+                         alt="Frontiers of Vision">
+                    <div class="company-pickup__body">
+                        <h3 class="company-pickup__title">Frontiers of Vision (supervised by WIRED Japan)</h3>
+                        <p class="company-pickup__text">The second installment features the "COOLPIX 300" that were
+                            pursued the technological possibilities of a multimedia recorder.
+                        </p>
                     </div>
-                </li>
-                <li class="featured__item">
-                    <div class="company-pickup">
-                        <div class="company-pickup__media"></div>
-                        <div class="company-pickup__body">
-                            <div class="company-pickup__title"></div>
-                            <div class="company-pickup__text"></div>
-                        </div>
+                </div>
+            </li>
+            <li class="featured__item">
+                <div class="company-pickup">
+                    <img class="company-pickup__media" src="/imgs/about_us/investor_relations.svg"
+                         alt="Investor Relations">
+                    <div class="company-pickup__body">
+                        <h3 class="company-pickup__title">Investor Relations</h3>
+                        <p class="company-pickup__text">Second Quarter of the Year Ending March 2024
+                            financial results have been announced.
+                        </p>
                     </div>
-                </li>
-                <li class="featured__item">
-                    <div class="company-pickup">
-                        <div class="company-pickup__media"></div>
-                        <div class="company-pickup__body">
-                            <div class="company-pickup__title"></div>
-                            <div class="company-pickup__text"></div>
-                        </div>
+                </div>
+            </li>
+            <li class="featured__item">
+                <div class="company-pickup">
+                    <img class="company-pickup__media" src="/imgs/about_us/collaborative_project.svg"
+                         alt="Collaborative Project">
+                    <div class="company-pickup__body">
+                        <h3 class="company-pickup__title">Capture × Tama Art University Industry-Academia Collaborative
+                            Project
+                        </h3>
+                        <p class="company-pickup__text">The second installment features the "COOLPIX 300"
+                            that were pursued the technological possibilities of a multimedia recorder.
+                        </p>
                     </div>
-                </li>
-                <li class="featured__item">
-                    <div class="company-pickup">
-                        <div class="company-pickup__media"></div>
-                        <div class="company-pickup__body">
-                            <div class="company-pickup__title"></div>
-                            <div class="company-pickup__text"></div>
-                        </div>
+                </div>
+            </li>
+            <li class="featured__item">
+                <div class="company-pickup">
+                    <img class="company-pickup__media" src="/imgs/about_us/exploring_possibilities.svg"
+                         alt="Exploring possibilities">
+                    <div class="company-pickup__body">
+                        <h3 class="company-pickup__title">Exploring possibilities for imaging expression with the
+                            creators of tomorrow
+                        </h3>
+                        <p class="company-pickup__text">Discover how together young creators and Capture
+                            Creates embarked on an exciting journey to unlock new possibilities in imaging
+                            expressions.
+                        </p>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="news">
+        <h2 class="news__title">News</h2>
+        <ul class="news__list">
+            <li class="news__item">
+                <span class="news__date">Jan. 12, 2024</span>
+                <span class="news__category">Sustainability</span>
+                <a class="news__link" href="/">Receives “Prime” Status in ISS ESG Corporate Rating for the First
+                    Time</a>
+            </li>
+            <li class="news__item">
+                <span class="news__date">Jan. 9, 2024</span>
+                <span class="news__category">Corporate Information</span>
+                <a class="news__link" href="/">Capture Exhibits at CES 2024</a>
+            </li>
+            <li class="news__item">
+                <span class="news__date">Jan. 9, 2024</span>
+                <span class="news__category">Consumer Products</span>
+                <a class="news__link" href="/">Capture and AFP collaborate to verify the implementation of an image
+                    provenance function
+                    in Capture cameras</a>
+            </li>
+            <li class="news__item">
+                <span class="news__date">Jan. 9, 2024</span>
+                <span class="news__category">Consumer Products</span>
+                <a class="news__link" href="/">Introducing the Smart Telescopes ODYSSEY PRO and ODYSSEY</a>
+            </li>
+            <li class="news__item">
+                <span class="news__date">Jan. 5, 2024</span>
+                <span class="news__category">Corporate Information</span>
+                <a class="news__link" href="/">Capture supports relief efforts for the 2024 Noto Peninsula Earthquake in
+                    Japan
+                    <span><img class="news__file" src="/imgs/about_us/file_news.svg" alt=""></span>
+                    PDF:132KB
+                </a>
+            </li>
+        </ul>
+        <a class="news__link" href="/">See all news</a>
+    </div>
+
+    <div class="company-category">
+        <ul class="company-category__list">
+            <li class="company-category__item">
+                <div class="company-category__body">
+                    <img class="company-category__media" src="/imgs/about_us/category_frontiers_of_vision.svg"
+                         alt="Frontiers of Vision">
+                    <h2 class="company-category__title"><span class="company-category__title-text">Frontiers of Vision (supervised by WIRED Japan)</span>
+                    </h2>
+                </div>
+            </li>
+            <li class="company-category__item">
+                <div class="company-category__body">
+                    <img class="company-category__media" src="/imgs/about_us/category_technology_&_design.svg"
+                         alt="Technology & Design">
+                    <h2 class="company-category__title"><span
+                            class="company-category__title-text">Technology & Design</span></h2>
+                </div>
+            </li>
+            <li class="company-category__item">
+                <div class="company-category__body">
+                    <img class="company-category__media" src="/imgs/about_us/category_sustainbility.svg"
+                         alt="Sustainbility">
+                    <h2 class="company-category__title"><span class="company-category__title-text">Sustainbility</span>
+                    </h2>
+                </div>
+            </li>
+            <li class="company-category__item">
+                <div class="company-category__body">
+                    <img class="company-category__media" src="/imgs/about_us/category_investor_relations.svg"
+                         alt="Investor Relations">
+                    <h2 class="company-category__title"><span
+                            class="company-category__title-text">Investor Relations</span></h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="foundation">
+        <h2 class="foundation__title">Capture's Foundations for the Future</h2>
+        <div class="company-foundation">
+            <p class="company-foundation__text">Capture supports society and changes the future with its
+                opto-electronics
+                and precision technologies. Through the five business lines of Imaging Products, Precision Equipment,
+                Healthcare, Components, and Digital Manufacturing, we provide a wide variety of products and
+                services.</p>
+            <a href="" class="company-foundation__link">Businesses</a>
+            <p class="company-foundation__text company-foundation__text--margin">Our world-class technology, global
+                networks, initiatives for a
+                sustainable society, and human resources create new value.</p>
         </div>
 
-        <div class="news">
-            <h1 class="news__title"></h1>
-            <ul class="news__list">
-                <li class="news__item">
-                    <div class="news__date"></div>
-                    <div class="news__category"></div>
-                    <a class="news__link" href="/" ></a>    
-                </li>
-            </ul>
-            <a  class="news__more" href="/"></a>
-        </div>
+        <div class="foundation__content">
+            <ul class="foundation__list">
+                <li class="foundation__item">
+                    <h3 class="foundation__title">Technology for the Future</h3>
+                    <ul class="foundation-section">
+                        <li class="foundation-section__item">
+                            <div class="foundation-section__container">
+                                <h4 class="foundation-section__heading">Capture Technologies</h4>
+                                <div class="foundation-section__body">
+                                    <p class="foundation-section__text--medium-30">From the</p>
+                                    <p>
+                                        <em class="foundation-section__text--large-80">microscopic</em>
+                                        <span class="foundation-section__text--note">2.1 nanometers*1</span>
+                                    </p>
 
-        <div class="company-category">
-            <ul class="company-category__list">
-                <li class="company-category__item">
-                    <div class="company-category__media"></div>
-                    <div class="company-category__title"></div>
-                </li>
-                <li class="company-category__item">
-                    <div class="company-category__media"></div>
-                    <div class="company-category__title"></div>
-                </li>
-                <li class="company-category__item">
-                    <div class="company-category__media"></div>
-                    <div class="company-category__title"></div>
-                </li>
-                <li class="company-category__item">
-                    <div class="company-category__media"></div>
-                    <div class="company-category__title"></div>
-                </li>
-            </ul>
-        </div>
+                                    <p class="foundation-section__text--medium-30 foundation-section__m-t20">To the</p>
+                                    <p>
+                                        <em class="foundation-section__text--large-80">cosmic</em>
+                                        <span class="foundation-section__text--note">Less than 2.1 nanometers*2</span>
+                                    </p>
+                                </div>
+                                <ul class="foundation-section__m-t20">
+                                    <li class="foundation-section__note-list foundation-section-text--note">*1The
+                                        precision
+                                        of Nikon lithography systems
+                                    </li>
+                                    <li class="foundation-section__note-list">*2The range of the Subaru telescope's
+                                        FOCAS
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="/" class="foundation-section__link">Stories | Technology & Design</a>
+                        </li>
+                        <li class="foundation-section__item">
+                            <div class="foundation-section__container">
+                                <h4 class="foundation-section__heading">Number of externally published R&D
+                                    papers</h4>
+                                <div class="foundation-section__body--row"><span
+                                        class="foundation-section__text--large-102">1,708<span class="foundation-section__text--medium-50 foundation-section__p-l12">in total</span>
 
-        <div class="foundation">
-            <div class="company-foundation">
-                <h2 class="company-foundation__title"></h2>
-                <p class="company-foundation__text"></p>
-                <a href="" class="company-foundation__link"></a>
-                <p class="company-foundation__text--center"></p>
-            </div>
+                                </span>
+                                </div>
+                                <ul class="foundation-section__m-t20">
+                                    <li class="foundation-section__note-list foundation-section-text--note">
+                                        * Year ended March 2023
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="/" class="foundation-section__link foundation-section__link--c-icon">Capture
+                                BioImaging Centers</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="foundation__item">
+                    <h3 class="foundation__title">A solid customer base and worldwide network</h3>
+                    <ul class="foundation-section">
+                        <li class="foundation-section__item">
+                            <div class="foundation-section__container">
+                                <h4 class="foundation-section__heading">Revenue composition</h4>
+                                <div class="foundation-section__body">
+                                    <img src="/imgs/about_us/pic_foundation_piechart.svg" alt="Revenue composition">
+                                </div>
+                                <ul class="foundation-section__m-t20">
+                                    <li class="foundation-section__note-list foundation-section-text--note">
+                                        * Year ended March 2023
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="/" class="foundation-section__link">Financial Information | Investor Relations</a>
+                        </li>
+                        <li class="foundation-section__item">
+                            <div class="foundation-section__container">
+                                <h4 class="foundation-section__heading">Number of state-of-the-art imaging facilities in
+                                    partnership with universities and research institutions</h4>
+                                <div class="foundation-section__body--row">
+                                    <p class="foundation-section__text--large-102 foundation-section__p-t20">10</p>
+                                    <div class="foundation-section__p-l12">
+                                        <p class="foundation-section__text--medium-36 ">locations</p>
+                                        <p class="foundation-section__text--medium-36 ">worldwide</p>
+                                    </div>
 
-            <div class="foundation__content">
-                <ul class="foundation__list">
-                    <li class="foundation__item">
-                        <h3 class="foundation__title"></h3>
-                        <ul class="foundation-section__list">
-                            <li class="foundation-section__item">
-                                <h4 class="foundation-section__heading"></h4>
-                                <div class="foundation-section__body"></div>
-                                <ol class="foundation-section__note-list">
-                                    <li class="foundation-section__note-item"></li>
-                                    <li class="foundation-section__note-item"></li>
-                                </ol>
-                            </li>
-                            <li class="foundation-section__item">
-                                <h4 class="foundation-section__heading"></h4>
-                                <div class="foundation-section__body"></div>
-                                <ol class="foundation-section__note-list">
-                                    <li class="foundation-section__note-item"></li>
-                                    <li class="foundation-section__note-item"></li>
-                                </ol>
-                            </li>
-                        </ul>
+                                </div>
+                                <ul class="foundation-section__m-t20">
+                                    <li class="foundation-section__note-list foundation-section-text--note">
+                                        * Source: Scopus, as of September 2023
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="/" class="foundation-section__link">Research |
+                                Technology & Design</a>
+                        </li>
+                    </ul>
+                </li>
+
+            <li class="foundation__item">
+                <h3 class="foundation__title">Initiatives for a sustainable society</h3>
+                <ul class="foundation-section">
+                    <li class="foundation-section__item">
+                        <div class="foundation-section__container">
+                            <h4 class="foundation-section__heading">FY2030 targets for decarbonization</h4>
+                            <div class="foundation-section__body">
+                                <p class="foundation-section__heading"><b>Greenhouse gas emissions</b></p>
+                                <p>
+                                    <span class="foundation-section__text--large-102">Down70<span class="foundation-section__text--medium-50">%+</span></span>
+                                </p>
+                                <p class="foundation-section__heading"><b>Renewables</b></p>
+                                <p>
+                                    <span class="foundation-section__text--large-80">30<span class="foundation-section__text--medium-50">%*</span></span>
+                                </p>
+                            </div>
+                            <ul class="foundation-section__m-t20">
+                                <li class="foundation-section__note-list foundation-section-text--note"> * Each is a
+                                    numerical target at the business locations
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="/" class="foundation-section__link">Promoting a Decarbonized Society |
+                            Sustainability</a>
                     </li>
-                    <li class="foundation__item">
-                        <h3 class="foundation__title"></h3>
-                        <ul class="foundation-section__list">
-                            <li class="foundation-section__item">
-                                <h4 class="foundation-section__heading"></h4>
-                                <div class="foundation-section__body"></div>
-                                <ol class="foundation-section__note-list">
-                                    <li class="foundation-section__note-item"></li>
-                                    <li class="foundation-section__note-item"></li>
-                                </ol>
-                            </li>
-                            <li class="foundation-section__item">
-                                <h4 class="foundation-section__heading"></h4>
-                                <div class="foundation-section__body"></div>
-                                <ol class="foundation-section__note-list">
-                                    <li class="foundation-section__note-item"></li>
-                                    <li class="foundation-section__note-item"></li>
-                                </ol>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="foundation__item">
-                        <h3 class="foundation__title"></h3>
-                        <ul class="foundation-section__list">
-                            <li class="foundation-section__item">
-                                <h4 class="foundation-section__heading"></h4>
-                                <div class="foundation-section__body"></div>
-                                <ol class="foundation-section__note-list">
-                                    <li class="foundation-section__note-item"></li>
-                                    <li class="foundation-section__note-item"></li>
-                                </ol>
-                            </li>
-                            <li class="foundation-section__item">
-                                <h4 class="foundation-section__heading"></h4>
-                                <div class="foundation-section__body"></div>
-                                <ol class="foundation-section__note-list">
-                                    <li class="foundation-section__note-item"></li>
-                                    <li class="foundation-section__note-item"></li>
-                                </ol>
-                            </li>
-                        </ul>
+                    <li class="foundation-section__item">
+                        <div class="foundation-section__container">
+                            <h4 class="foundation-section__heading">Number of supporters in scholarship projects
+                                undertaken as part of support for the next generation</h4>
+                            <div class="foundation-section__body">
+                                <span class="foundation-section__text--large-102">4,007<span
+                                        class="foundation-section__text--medium-50 foundation-section__p-l12">in total</span>
+                                </span>
+                            </div>
+                            <ul class="foundation-section__m-t20">
+                                <li class="foundation-section__note-list foundation-section-text--note">
+                                    * 170 from Thailand and 140 from Laos in the year ended March 2023
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="/" class="foundation-section__link">Corporate Citizenship Activities |
+                            Sustainability</a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </li>
+            <li class="foundation__item">
+                <h3 class="foundation__title">Sources of corporate activity</h3>
+                <ul class="foundation-section">
+                    <li class="foundation-section__item">
+                        <div class="foundation-section__container">
+                            <h4 class="foundation-section__heading">Number of employees</h4>
+                            <div class="foundation-section__body">
+                                <p class="foundation-section__heading"><b>Consolidated:</b></p>
+                                <p>
+                                    <em class="foundation-section__text--large-80">18,790</em>
+                                </p>
 
-        <div class="company-socialmedia">
-            <div class="company-socialmedia__panel">
-                <a href="/" class="company-socialmedia__link"></a>
-                <p class="company-socialmedia__text"></p>
-            </div>
-            <h2 class="technology__title"></h2>
+                                <p class="foundation-section__heading"><b>Non-consolidated:</b></p>
+                                <p>
+                                    <em class="foundation-section__text--large-80">4,184</em>
+                                </p>
+                            </div>
+                            <ul class="foundation-section__m-t20">
+                                <li class="foundation-section__note-list">* As of end March 2023
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="/" class="foundation-section__link">Capture Group Companies | Corporate Information</a>
+                    </li>
+                    <li class="foundation-section__item">
+                        <div class="foundation-section__container">
+                            <h4 class="foundation-section__heading">Revenue-to-R&D investment ratio</h4>
+                            <div class="foundation-section__body">
+                                <span class="foundation-section__text--large-102 ">11<span
+                                        class="foundation-section__text--medium-50">%</span>                                </span>
+                            </div>
+                            <ul class="foundation-section__m-t20">
+                                <li class="foundation-section__note-list foundation-section-text--note">
+                                    * Year ended March 2023
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="/" class="foundation-section__link"> * Year ended March 2023</a>
+                    </li>
+                </ul>
+            </li>
+            </ul>
         </div>
+    </div>
 
-        <div class="warning">
-            <h4 class="warning__text"></h4>
+    <div class="company-social-media">
+        <div class="company-social-media__panel">
+            <a href="/" class="company-social-media__link"></a>
+            <p class="company-social-media__text"></p>
         </div>
-    </main>
+        <h2 class="technology__title"></h2>
+    </div>
 
-    <nav class="footer-sitemap">
-        <ul class="footer-sitemap__list">
-            <li class="footer-sitemap__item"></li>
-            <li class="footer-sitemap__item"></li>
-            <li class="footer-sitemap__item"></li>
+    <div class="warning">
+        <h4 class="warning__text"></h4>
+    </div>
+</main>
+
+<nav class="footer-sitemap">
+    <ul class="footer-sitemap__list">
+        <li class="footer-sitemap__item"></li>
+        <li class="footer-sitemap__item"></li>
+        <li class="footer-sitemap__item"></li>
+    </ul>
+</nav>
+
+<footer class="footer">
+    <div class="footer__row">
+        <ul class="footer__links">
+            <li class="footer__link"></li>
+            <li class="footer__link"></li>
+            <li class="footer__link"></li>
+            <li class="footer__link"></li>
         </ul>
-    </nav>
-    
-    <footer class="footer">
-        <div class="footer__row">
-            <ul class="footer__links">
-                <li class="footer__link"></li>
-                <li class="footer__link"></li>
-                <li class="footer__link"></li>
-                <li class="footer__link"></li>
-            </ul>
-            <div class="footer_facebook"></div>
-        </div>
-        <div class="footer__row">
-            <ul class="footer__links">
-                <li class="footer__link"></li>
-                <li class="footer__link"></li>
-                <li class="footer__link"></li>
-                <li class="footer__link"></li>
-            </ul>
-            <div class="footer__copyright"></div>
-        </div>
-    </footer>
+        <div class="footer_facebook"></div>
+    </div>
+    <div class="footer__row">
+        <ul class="footer__links">
+            <li class="footer__link"></li>
+            <li class="footer__link"></li>
+            <li class="footer__link"></li>
+            <li class="footer__link"></li>
+        </ul>
+        <div class="footer__copyright"></div>
+    </div>
+</footer>
 </body>
 </html>
