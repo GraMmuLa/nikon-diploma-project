@@ -5,137 +5,354 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikon Business</title>
     <!-- local css -->
-<link rel="stylesheet" href="/css/business-style.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/business-style.css">
+
 </head>
 <body>
-    <header class="header">
-        <img  class="header__logo" src="/logo">
-        <span class="header__site">Business</span>
+<header class="global-header">
+    <div class="header">
+        <img class="header__logo" src="imgs/global-page/header-navbar/header_navbar_logo.svg" alt="Capture"/>
 
-        <ul class="menu header__menu">
-            <li class="menu__link">Global Home</li>
-            <li class="menu__link">Consumer</li>
-            <li class="menu__link">About Us</li>
-            <li class="menu__search"></li>
-            <li class="menu__network">Global Network</li>
-        </ul>
-    </header>
+        <div class="header__block navbar-block">
+            <p class="navbar-block__tag">Global</p>
 
+            <ul class="navbar-block__links">
+                <li class="navbar-block__item">
+                    <a href="business.html" class="navbar-block__link light-link">Business</a>
+                </li>
+                <li class="navbar-block__item">
+                    <a href="consumer.html" class="navbar-block__link light-link">Consumer</a>
+                </li>
+                <li class="navbar-block__item">
+                    <a href="about_us.html" class="navbar-block__link light-link">About us</a>
+                </li>
+                <li class="navbar-block__item">
+                    <a href="#" class="navbar-block__button">
+                        <img src="imgs/global-page/header-navbar/header_navbar_search.svg" alt="Search"/>
+                    </a>
+                </li>
+                <li class="navbar-block__item">
+                    <a href="#" class="navbar-block__link">
+                        Global Network <img src="imgs/global-page/header-navbar/header_navbar_planet.svg" alt=".">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <nav class="nav">Product Line Up</nav>
-
-    <main class="main">
-
-        <div class="top-block">
-            <div class="top-content top-block__top-content">
-                <h1 class="top-content__title">Business</h1>
-                <p class="top-content__text">Whether in manufacturing, advanced medicine, or R&D, 
-                    Nikon products and solutions will support you in a wide range of situations.</p>
-            </div>
-            <img class="top-block__photo" src="/business/assets/img/pic_hero_large.jpg" alt="">
+</header>
+<main class="main">
+    <div class="top-content">
+        <img class="top-content__img" src="/imgs/business/pic_hero_large.svg" alt="pic_hero_large">
+        <div class="top-content__body">
+            <h1 class="top-content__title">Business</h1>
+            <p class="top-content__text">Whether in manufacturing, advanced medicine, or R&D, Capture products
+                and solutions will support you in a wide range of situations.</p>
         </div>
+    </div>
+    <br>
 
-        <div class="product-lineUp">
-            <div class="product-lineUp__category--active">Search by product category</div>
-            <div class="product-lineUp__industry">Search by industry</div>
-        </div>
+    <div class="contents">
+        <div class="product">
+            <ul class="product__list">
+                <li class="product__item">
 
-        <div class="contents">
-            <div class="product">
-                <ul class="product__list">
-                    <li class="product__item">
+                    <div class="product__body">
+                        <div class="product-line">
+                        <a class="product-line__category product-line__category--active" href="/">Search by product
+                            category</a>
+                        <a class="product-line__industry" href="/">Search by industry</a>
+                    </div>
                         <div class="category">
                             <h2 class="category__title">Observation & Examination (Biology)</h2>
                             <ul class="category__list">
                                 <li class="category__item">
                                     <div class="card">
-                                        <img src="" alt="" class="card__photo">
+                                        <img src="/imgs/business/pic_product_lifescience.svg"
+                                             alt="Biological Microscopes" class="card__photo">
                                         <h3 class="card__title">Biological Microscopes</h3>
                                     </div>
                                 </li>
                                 <li class="category__item">
                                     <div class="card">
-                                        <img src="" alt="" class="card__photo">
+                                        <img src="/imgs/business/pic_product_eyecare.svg" alt="Fundus Camera"
+                                             class="card__photo">
                                         <h3 class="card__title">Fundus Camera</h3>
                                     </div>
                                 </li>
                             </ul>
+
                         </div>
                         <div class="category">
                             <h2 class="category__title">Contract Cell Development and Manufacturing</h2>
                             <ul class="category__list">
                                 <li class="category__item">
                                     <div class="card">
-                                        <img src="" alt="" class="card__photo">
-                                        <h3 class="card__title">Contract Cell Development and Manufacturing</h3>
+                                        <img src="/imgs/business/pic_product_cdmo.svg" alt="Fundus Camera"
+                                             class="card__photo">
+                                        <h3 class="card__title">Contract Cell Development and
+                                            Manufacturing</h3>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                    </li> 
-                    <li class="product__item">
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__body">
                         <div class="category">
                             <h2 class="category__title">Observation & Examination (Industrial)</h2>
                             <ul class="category__list">
                                 <li class="category__item">
                                     <div class="card">
-                                        <img src="" alt="" class="card__photo">
+                                        <img src="/imgs/business/pic_product_x-ray.svg"
+                                             alt="X-Ray and CT Systems" class="card__photo">
                                         <h3 class="card__title">X-Ray and CT Systems</h3>
                                     </div>
                                 </li>
                                 <li class="category__item">
                                     <div class="card">
-                                        <img src="" alt="" class="card__photo">
+                                        <img src="/imgs/business/pic_product_industrial_microscopy.svg"
+                                             alt="Industrial Microscopy"
+                                             class="card__photo">
                                         <h3 class="card__title">Industrial Microscopy</h3>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                    </li>     
-             <!-- other content
-            
-            
-            
-            
-            -->
-                </ul>   
-            </div>
-        </div> 
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__body">
+                        <div class="category">
+                            <h2 class="category__title">Measurement</h2>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_x-laser_radar.svg"
+                                             alt="Laser Radar Measuring Systems" class="card__photo">
+                                        <h3 class="card__title">Laser Radar Measuring Systems</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_optical_manual_measuring.svg"
+                                             alt="Video Measuring Systems" class="card__photo">
+                                        <h3 class="card__title">Video Measuring Systems</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_video_measuring_systems.svg"
+                                             alt="Optical Manual Measuring"
+                                             class="card__photo">
+                                        <h3 class="card__title">Optical Manual Measuring</h3>
+                                    </div>
+                                </li>
 
-        <div class="business-search">
-            <form class="search-keywords">
-                <label>
-                    <input type="text" class="search-keywords__input">
-                </label>
-                <input type="submit" class="search-keywords__submit">
-            </form>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_digimicro.svg" alt="Digimicro"
+                                             class="card__photo">
+                                        <h3 class="card__title">Digimicro</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__body">
+                        <div class="category">
+                            <h2 class="category__title">Processing</h2>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_processing_machine.svg"
+                                             alt="Optical Processing Machine" class="card__photo">
+                                        <h3 class="card__title">Optical Processing Machine</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_material_processing_solutions.svg"
+                                             alt="Material Processing Solutions" class="card__photo">
+                                        <h3 class="card__title">Material Processing Solutions</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__body">
+                        <div class="category">
+                            <h2 class="category__title">Industrial Robotics</h2>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_encoders.svg"
+                                             alt="" class="card__photo">
+                                        <h3 class="card__title">Encoders</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_robot_vision.svg"
+                                             alt="Robot Vision" class="card__photo">
+                                        <h3 class="card__title">Robot Vision</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__body">
+                        <div class="category">
+                            <h2 class="category__title">Surveying</h2>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_encoders.svg"
+                                             alt="Surveying Instruments" class="card__photo">
+                                        <h3 class="card__title">Surveying Instruments</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__body">
+                        <div class="category">
+                            <h2 class="category__title">Lithography Systems & Related Instruments</h2>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_fpd.svg"
+                                             alt="FPD Lithography Systems" class="card__photo">
+                                        <h3 class="card__title">FPD Lithography Systems</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_semiconductor_systems.svg"
+                                             alt="Semiconductor Systems" class="card__photo">
+                                        <h3 class="card__title">Semiconductor Systems</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_mems.svg"
+                                             alt="MEMS Steppers & Both Side Measurement System" class="card__photo">
+                                        <h3 class="card__title">MEMS Steppers & Both Side Measurement System</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_alignment_station.svg"
+                                             alt="Alignment Station" class="card__photo">
+                                        <h3 class="card__title">Alignment Station</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_metrology.svg"
+                                             alt="Metrology/Inspection Systems" class="card__photo">
+                                        <h3 class="card__title">Metrology/Inspection Systems</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__body">
+                        <div class="category">
+                            <h2 class="category__title">Components & Materials</h2>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_industrial_lenses.svg"
+                                             alt="Industrial Lenses" class="card__photo">
+                                        <h3 class="card__title">Industrial Lenses</h3>
+                                    </div>
+                                </li>
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_optical_components.svg"
+                                             alt="Optical Components & Material" class="card__photo">
+                                        <h3 class="card__title">Optical Components & Material</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="product__item">
+                    <div class="product__body">
+                        <div class="category">
+                            <h2 class="category__title">Components & Materials</h2>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <div class="card">
+                                        <img src="/imgs/business/pic_product_imaging_solution.svg"
+                                             alt="Imaging Solution" class="card__photo">
+                                        <h3 class="card__title">Imaging Solution</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+
+                <!-- other content
+
+
+
+
+               -->
+            </ul>
         </div>
+    </div>
 
-        <div class="info">
-            <div class="info__network">
-                <h2 class="info__title"></h2>
-                <p class="info__text"></p>
-                <p class="info__link"></p>
-            </div>
-            <div class="info__contacts">
-                <h2 class="info__title"></h2>
-                <a class="info__link--black" href=""></a>
-            </div>
+    <div class="business-search">
+        <form class="search-keywords">
+            <label>
+                <input type="text" class="search-keywords__input">
+            </label>
+            <input type="submit" class="search-keywords__submit">
+        </form>
+    </div>
+
+    <div class="info">
+        <div class="info__network">
+            <h2 class="info__title"></h2>
+            <p class="info__text"></p>
+            <p class="info__link"></p>
         </div>
+        <div class="info__contacts">
+            <h2 class="info__title"></h2>
+            <a class="info__link--black" href=""></a>
+        </div>
+    </div>
 
-        <!-- to be continued -->
-         <!-- to be continued -->
-          <!-- to be continued -->
-           <!-- to be continued -->
-            <!-- to be continued -->
-             <!-- to be continued -->
-              <!-- to be continued -->
-               <!-- to be continued -->
-                <!-- to be continued -->
-                 <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
+    <!-- to be continued -->
 
 
+</main>
 
-    </main>
-    
 </body>
 </html>
