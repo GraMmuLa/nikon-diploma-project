@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822e63bc-59bb-4de9-b2fa-b8297b7b0142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/button_arrow_dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/warning.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/global-page/global-header/location_header_button_vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/button_arrow_light.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +33,7 @@
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;parallelbranch&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;parallelBranch&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Program Files/JetBrains/WebStorm 2023.1.3/WebStormProjects/nikon-diploma-project/imgs/header-navbar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -82,7 +79,8 @@
       <workItem from="1708027729927" duration="4927000" />
       <workItem from="1708034683042" duration="21000" />
       <workItem from="1708111682352" duration="3897000" />
-      <workItem from="1708132842781" duration="400000" />
+      <workItem from="1708132842781" duration="620000" />
+      <workItem from="1708291602865" duration="2504000" />
     </task>
     <servers />
   </component>
