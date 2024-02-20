@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822e63bc-59bb-4de9-b2fa-b8297b7b0142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/about_us.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/about_us_top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/capture_report.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/category_frontiers_of_vision.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/category_investor_relations.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/category_sustainbility.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/category_technology_&amp;_design.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/ces_2024.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/collaborative_project.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/exploring_possibilities.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/file_news.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/frontiers_of_vision.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/icon_angle-right-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/icon_angle-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/icon_link-ext-black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/icon_link-ext-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/investor_relations.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/logo_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/about_us/pic_foundation_piechart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/go_up_arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
@@ -55,7 +36,7 @@
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging parallelBranch",
+    "git-widget-placeholder": "parallelBranch",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Program Files/JetBrains/WebStorm 2023.1.3/WebStormProjects/nikon-diploma-project/imgs/header-navbar",
     "node.js.detected.package.eslint": "true",
@@ -103,7 +84,7 @@
       <workItem from="1708111682352" duration="3897000" />
       <workItem from="1708132842781" duration="620000" />
       <workItem from="1708291602865" duration="2504000" />
-      <workItem from="1708431271714" duration="897000" />
+      <workItem from="1708431271714" duration="3780000" />
     </task>
     <servers />
   </component>
