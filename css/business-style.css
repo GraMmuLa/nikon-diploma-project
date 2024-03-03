@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, p, ul {
     padding: 0;
 }
 
+
 .main {
 
 }
@@ -171,6 +172,11 @@ h1, h2, h3, h4, h5, p, ul {
 .card {
     max-width: 300px;
     padding: 50px 0;
+    display: block;
+    color: #111111;
+}
+.card:hover{
+    text-decoration: underline;
 }
 
 .card__photo {
@@ -180,6 +186,7 @@ h1, h2, h3, h4, h5, p, ul {
 .card__photo:hover{
         opacity: 0.7;
         transition: opacity 0.3s ease-out;
+    border: 1px solid #111111
 }
 
 .card__title {
@@ -290,7 +297,16 @@ height: auto;
     text-align: center;
     color: white;
     background: #222222;
+    transition: opacity 0.3s ease-out;
 }
+.info__link--black:hover {
+
+    opacity: 0.7;
+    order: 1;
+    transition: opacity 0.3s ease-out;
+    border: 1px solid #ffffff
+}
+
 .info__icon-mail{
 width: 24px;
     height: 24px;
@@ -353,6 +369,12 @@ text-align: center;
 .featured__item{
 
 }
+.featured__item-link{
+    color: white;
+}
+.featured__item-link:hover{
+text-decoration: underline;
+}
 .featured__img{
     width: 100%;
     transition: opacity 0.3s ease-out;
@@ -361,6 +383,7 @@ text-align: center;
     opacity: 0.7;
     order: 1;
     transition: opacity 0.3s ease-out;
+    border: 1px solid #ffffff
 }
 .featured__cart-title{
     padding: 20px 0;
@@ -450,5 +473,21 @@ width: fit-content;
 .footer-sitemap__link{
     color: #ffffff;
 }
+.footer-sitemap__link:hover{
+    text-decoration: underline;
+}
 
 /*footer-sitemap*/
+
+.link-right::after{
+    content: "";
+    display: inline-block;
+    width: 0.44em;
+    height: 0.88em;
+    margin: 0 0 0.2em 0.44em;
+    vertical-align: middle;
+    background: url("/imgs/button_arrow_dark.svg") no-repeat 0 0;
+    background-image: url("/imgs/button_arrow_dark.svg");
+    background-size: auto;
+    background-size: contain;
+}
