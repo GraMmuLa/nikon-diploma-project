@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, p, ul {
     padding: 0;
 }
 
+
 .main {
 
 }
@@ -171,10 +172,21 @@ h1, h2, h3, h4, h5, p, ul {
 .card {
     max-width: 300px;
     padding: 50px 0;
+    display: block;
+    color: #111111;
+}
+.card:hover{
+    text-decoration: underline;
 }
 
 .card__photo {
     width: 300px;
+    transition: opacity 0.3s ease-out;
+}
+.card__photo:hover{
+        opacity: 0.7;
+        transition: opacity 0.3s ease-out;
+    border: 1px solid #111111
 }
 
 .card__title {
@@ -196,11 +208,10 @@ h1, h2, h3, h4, h5, p, ul {
     margin: auto;
     padding: 120px 0;
     max-width: 1280px;
-
 }
 
 .business-search {
-
+    padding-bottom: 150px;
 }
 
 .search-keywords {
@@ -214,7 +225,9 @@ h1, h2, h3, h4, h5, p, ul {
     font-weight: 700;
     line-height: 19px;
     text-align: left;
-    display: block;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .search-keywords__input {
@@ -236,30 +249,70 @@ h1, h2, h3, h4, h5, p, ul {
 
 .search-keywords__submit {
     position: absolute;
-    width: 130px;
-    flex: 0 0 auto;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    background: none;
+    border: none;
+    right: 30px;
 }
 
-
-.info {
-
-
+.info__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-.info {
-
-
+.info__block {
+height: auto;
+    border: 1px solid #111111;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    justify-content: center;
+}
+.info__block--center{
+    align-items: center;
 }
 
-.info {
-
-
+.info__title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.info__text{
+    padding: 20px 0 30px;
 }
 
-.info {
-
-
+.info__link--black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  padding: 15px 0;
+    width: 40%;
+    text-align: center;
+    color: white;
+    background: #222222;
+    transition: opacity 0.3s ease-out;
 }
+.info__link--black:hover {
+
+    opacity: 0.7;
+    order: 1;
+    transition: opacity 0.3s ease-out;
+    border: 1px solid #ffffff
+}
+
+.info__icon-mail{
+width: 24px;
+    height: 24px;
+   padding-right: 10px;
+}
+
 
 /*info*/
 
@@ -286,3 +339,155 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 /*news*/
+
+.bottom-content{
+   background-color: #111111;
+}
+
+/*featured*/
+
+.featured{
+    padding: 120px 80px;
+    width: auto;
+    max-width: 1280px;
+    margin: auto;
+    color: #ffffff;
+}
+.featured__title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+text-align: center;
+}
+.featured__list{
+    display: grid;
+    gap: 50px 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+
+}
+.featured__item{
+
+}
+.featured__item-link{
+    color: white;
+}
+.featured__item-link:hover{
+text-decoration: underline;
+}
+.featured__img{
+    width: 100%;
+    transition: opacity 0.3s ease-out;
+}
+.featured__img:hover{
+    opacity: 0.7;
+    order: 1;
+    transition: opacity 0.3s ease-out;
+    border: 1px solid #ffffff
+}
+.featured__cart-title{
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #ffffff;
+
+}
+.featured__text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+/*featured*/
+
+/*technology-design*/
+.technology-design{
+    width: auto;
+    max-width: 1280px;
+    margin: auto;
+    color: #ffffff;
+}
+.technology-design__title{
+    text-align: center;
+}
+.technology-design__text{
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+    text-align: center;
+}
+.technology-design__link{
+    display: block;
+    margin: 50px auto;
+width: fit-content;
+    padding: 15px 50px;
+    border: 1px solid #949494;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    box-sizing: border-box;
+    color: #111111;
+    background-color: #fff;
+    transition: background-color 0.2s ease-out;
+}
+.technology-design__link:hover{
+    background-color: #dbdbdb;
+}
+
+.business-technology__media{
+    width: 100%;
+}
+
+/*technology-design*/
+
+/*footer-sitemap*/
+
+.footer-sitemap{
+    color: #ffffff;
+    background: #111111;
+    border-bottom: 1px solid #949494;
+}
+.footer-sitemap__inner{
+    width: auto;
+    max-width: 1280px;
+    margin: auto;
+    padding: 120px 80px;
+}
+.footer-sitemap__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px 40px;
+}
+.footer-sitemap__category{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.footer-sitemap__link-item{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.footer-sitemap__link{
+    color: #ffffff;
+}
+.footer-sitemap__link:hover{
+    text-decoration: underline;
+}
+
+/*footer-sitemap*/
+
+.link-right::after{
+    content: "";
+    display: inline-block;
+    width: 0.44em;
+    height: 0.88em;
+    margin: 0 0 0.2em 0.44em;
+    vertical-align: middle;
+    background: url("/imgs/button_arrow_dark.svg") no-repeat 0 0;
+    background-image: url("/imgs/button_arrow_dark.svg");
+    background-size: auto;
+    background-size: contain;
+}
